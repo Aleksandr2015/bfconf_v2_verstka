@@ -11,27 +11,32 @@
     border-bottom: 3px dashed #fff;
 }
 
+.-div-footer {
+    margin-top: 50px;
+}
+
 /* header block */
 
 .-header {
     height: 900px;
-    background: #dd352f; /* Old browsers */
-    background: -moz-linear-gradient(top,  #dd352f 0%, #f1a45e 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dd352f), color-stop(100%,#f1a45e)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  #dd352f 0%,#f1a45e 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top,  #dd352f 0%,#f1a45e 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top,  #dd352f 0%,#f1a45e 100%); /* IE10+ */
-    background: linear-gradient(to bottom,  #dd352f 0%,#f1a45e 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dd352f', endColorstr='#f1a45e' ); /* IE6-9 */
+    background: #e25030; /* Old browsers */
+    background: -moz-linear-gradient(top,  #e25030 0%, #f38a31 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e25030), color-stop(100%,#f38a31)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #e25030 0%,#f38a31 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #e25030 0%,#f38a31 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #e25030 0%,#f38a31 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #e25030 0%,#f38a31 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e25030', endColorstr='#f38a31' ); /* IE6-9 */
+
 
 }
 
 .header-text {
-    padding-top: 11.5%;
+    padding-top: 12.5%;
     text-align: left;    
     margin-left: -15px;
     margin-right: -15px;
-    font-size: 380%;
+    font-size: 340%;
     width: 100%;
     height: 750px;
     background-image: url(../img/bg-header-text.png);
@@ -52,19 +57,87 @@
 
 /* main block */
 
-.main {
-    padding-top: 7%;
+.-main {
+    padding-top: 5%;    
+    background: #e25030; /* Old browsers */
+    background: -moz-linear-gradient(left,  #e25030 0%, #f38a31 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#e25030), color-stop(100%,#f38a31)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  #e25030 0%,#f38a31 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  #e25030 0%,#f38a31 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  #e25030 0%,#f38a31 100%); /* IE10+ */
+    background: linear-gradient(to right,  #e25030 0%,#f38a31 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e25030', endColorstr='#f38a31'); /* IE6-9 */
+}
+
+.-main-block {
+    min-height: 520px;
+}
+
+.-main-img {
+    width: 100%;
 }
 
 .main-text-header {
-    font-size: 150%;
+    font-size: 230%;
     color: #fff;
+    margin-bottom: 2%;
+}
+
+.main-text-date {
+    color: #fff;
+    margin-bottom: 2%;
+    letter-spacing: .5px;
 }
 
 .main-text {
+    font-size: 110%;
     color: #fff;
+    margin-bottom: 5%
 }
+
+.main-text-big {
+    font-size: 130%;
+    color:#fff;
+    letter-spacing: .5px;
+}
+
+.main-text-graphs-thumb-wrap img {
+    margin-right: 5%;
+    width: 25%;
+    height: 25%;
+    cursor: pointer;
+}
+
+    /* modal */
+
+    .modal-body img {
+        margin: 0 auto;
+    }
+
+    .modal {
+        height: 1000%;
+        width: 100%;
+        overflow-y: scroll !important;
+    }
 
 /* form block */
 
 /* footer block */
+.-footer {
+    padding-top: 1.5%;
+    padding-bottom: 6%;
+    background: #f38a31; /* Old browsers */
+    background: -moz-linear-gradient(top,  #f38a31 0%, #e25030 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f38a31), color-stop(100%,#e25030)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #f38a31 0%,#e25030 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #f38a31 0%,#e25030 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #f38a31 0%,#e25030 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #f38a31 0%,#e25030 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f38a31', endColorstr='#e25030'); /* IE6-9 */
+
+}
+
+.footer-text {
+    color: #fff;
+    font-size: 180%;
+}
