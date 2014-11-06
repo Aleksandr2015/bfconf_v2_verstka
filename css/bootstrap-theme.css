@@ -53,7 +53,7 @@ legend {
     color: #fff;
 }
 
-.btn-custom:hover {
+.btn-custom:hover, .btn-custom:active, .btn-custom:focus, .btn-custom:link {
     color: #fff;
 }
 
@@ -306,8 +306,23 @@ figure, figcaption {
 
 .price-no {color: #000;}
 
+.message-after-send {
+    width: 60%;
+    margin: 20px auto 0;
+    padding: 10%;
+    font-size: 125%;
+}
 
+.message-after-send a {
+    font-size: 110%;
+    margin-top: 2%;
+    color: #E45730;
+    text-decoration: underline;    
+}
 
+.message-after-send a:hover {
+    text-decoration: none;
+}
 
 .main-text-header {
     font-size: 230%;
