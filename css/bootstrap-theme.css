@@ -20,6 +20,36 @@
     margin-top: 50px;
 }
 
+legend {
+    border-bottom: 0px;
+}
+
+.cust-leg {
+    font-size: 125%;
+}
+
+.form-horizontal .form-group {
+    margin-right: -2%;
+    margin-left: 0px;
+}
+
+.btn-custom {
+    background: #EA6A31;
+    color: #fff;
+}
+
+.btn-custom:hover {
+    color: #fff;
+}
+
+.thanks-modal p {
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 8%;
+    width: 100%;
+    height: 100%;
+}
+
 /* header block */
 
 .-header {    
@@ -75,6 +105,41 @@
 
 .-main-img {
     width: 100%;
+    margin-bottom: -100px;
+}
+
+.-main .-main-block.-img-block {
+    position: relative;
+}
+
+.bf-register, .bf-callback {
+    width: 100%;
+    text-indent: 9%;
+    cursor: pointer;
+}
+
+.bf-register span {
+    display: inline-block;
+    border: 3px solid #E31717;
+    padding: 2% 4.6%;
+    color: #E31717;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 194%;
+    text-indent: 0;
+}
+
+
+.bf-callback span {
+    display: inline-block;
+    border: 3px solid #E31717;
+    padding: 2% 10.6%;
+    color: #E31717;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 194%;
+    margin-top: 1.5%;
+    text-indent: 0;
 }
 
 .main-text-header {
@@ -184,7 +249,6 @@
     font-size: 180%;
 }
 
-
 /* Responsive styles */
 
 @media (max-width: 1199px) {
@@ -205,6 +269,14 @@
         left: 32%;    
     }
         
+    .-main-img {
+        margin-bottom: -80px;
+    }
+    
+    .bf-register span,  .bf-callback span {
+        font-size: 158%;        
+    }
+    
 }
 
 @media (max-width: 991px) {        
@@ -237,6 +309,7 @@
     
     .-main .-main-img {
         margin-top: -5%;
+        margin-bottom: -18%;
     }
             
     .-main .-main-block {
@@ -246,6 +319,21 @@
     
     .main-text-header, .main-text-date, .main-text, .main-text-big {
         text-align: center;
+    }
+    
+    .bf-register span,  .bf-callback span {
+        font-size: 253%;        
+    }
+    
+}
+
+@media (max-width: 767px) {
+    .bf-register span,  .bf-callback span {
+        font-size: 200%;        
+    }
+    
+    .bf-register span,  .bf-callback span {
+        font-size: 252%;        
     }
 }
 
@@ -273,6 +361,10 @@
         top: 34%;
         left: 38%;
     }
+    
+    .bf-register span,  .bf-callback span {
+        font-size: 236%;        
+    }
 }
 
 @media (max-width: 680px) {
@@ -281,6 +373,10 @@
         left: 4%;
         font-size: 187%;
     }
+    
+    .bf-register span,  .bf-callback span {
+        font-size: 221%;        
+    }
 }
 
 @media (max-width: 635px) {
@@ -288,6 +384,10 @@
         top: 19%;
         left: 4%;
         font-size: 170%;
+    }
+    
+    .bf-register span,  .bf-callback span {
+        font-size: 205%;        
     }
 }
 
@@ -313,6 +413,10 @@
         top: 34%;
         left: 38%;
     }
+    
+    .bf-register span,  .bf-callback span {
+        font-size: 195%;        
+    }
 }
 
 @media (max-width: 580px) {
@@ -332,6 +436,10 @@
         top: 34%;
         left: 37%;
     }
+    
+    .bf-register span,  .bf-callback span {
+        font-size: 185%;        
+    }
 }
 
 @media (max-width: 535px) {
@@ -350,6 +458,10 @@
         font-size: 830%;
         top: 33%;
         left: 33%;
+    }
+    
+    .bf-register span,  .bf-callback span {
+        font-size: 170%;        
     }
 }
 
@@ -371,6 +483,10 @@
         left: 33%;
     }
     
+    .bf-register span,  .bf-callback span {
+        font-size: 152%;        
+    }
+    
 }
 
 @media (max-width: 435px) {
@@ -389,6 +505,10 @@
         font-size: 830%;
         top: 30%;
         left: 30%;
+    }
+    
+    .bf-register span,  .bf-callback span {
+        font-size: 134%;        
     }
 }
 
@@ -409,6 +529,10 @@
         top: 30%;
         left: 30%;
     }
+    
+    .bf-register span,  .bf-callback span {
+        font-size: 122%;        
+    }
 }
 
 @media (max-width: 390px) {
@@ -421,5 +545,9 @@
         font-size: 830%;
         top: 30%;
         left: 30%;
+    }
+    
+    .bf-register span,  .bf-callback span {
+        font-size: 119%;        
     }
 }

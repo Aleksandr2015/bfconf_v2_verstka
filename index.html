@@ -16,6 +16,521 @@
 </head>
 
 <body>    
+    <!-- Modal thanks -->
+    <div class="modal fade thanks-modal" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="z-index:9999999;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+              <p class="text-center">Ваше сообщение отправлено.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modals - register and callback -->
+    <!-- Modal - register - Metal Expert’s Kiev Steel and Raw Materials Conference -->
+    <div class="modal fade" id="modal-register-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">          
+          <div class="modal-body text-center">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Закрыть</button>            
+            <form class="form-horizontal" action="post-1-r.php" method="post" onsubmit="send(); return false;">
+                <fieldset class="cust-fos">
+                    <legend class="cust-leg text-center">Введите необходимую информацию для регистрации:</legend>
+                    <!-- Поля ввода ФИО и Должность-->
+                    <div class="form-group">                              
+                        <div class="">
+                            <input id="name" name="name" type="text" placeholder="ФИО" class="form-control" pattern='[A-Za-zА-Яа-яЁё\s]{2,}' title="Поле должно содержать только буквы, не менее 2х" required>
+                        </div>
+                    </div>
+                    <div class="form-group">                              
+                        <div class="">
+                            <input id="email" name="position" type="text" placeholder="Должность" class="form-control" required>
+                        </div>
+                    </div>                            
+                    <!-- Поля ввода Компания и Телефон-->
+                    <div class="form-group">
+                        <div class="">
+                            <input id="email" name="company" type="text" placeholder="Компания" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="form-group">                              
+                        <div class="">
+                            <input id="email" name="tel" type="text" placeholder="Телефон" class="form-control" title='Поле должно содержать не менее 6 цифер' pattern="[+()0-9\s]{6,}" required>
+                        </div>                                
+                    </div>
+                    <!-- Поле ввода Мыло -->
+                    <div class="form-group">
+                        <div class="">
+                            <input id="email" name="email" type="email" placeholder="E-mail" class="form-control email-centered" required>
+                        </div>
+                    </div>
+                    <!-- Кнопка Отправить -->
+                    <div class="form-group">
+                        <div class="text-center">
+                        <!-- Button trigger modal -->
+                            <button type="submit" class="btn btn-custom btn-lg" style="width:100%;">Отправить</button>
+                        </div>                                
+                    </div>
+                </fieldset>
+            </form>                
+          </div>          
+        </div>
+      </div>
+    </div>
+    <!-- Modal - callback - Metal Expert’s Kiev Steel and Raw Materials Conference -->
+    <div class="modal fade" id="modal-callback-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">          
+          <div class="modal-body text-center">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Закрыть</button>            
+            <form class="form-horizontal" action="post-1-c.php" method="post" onsubmit="send(); return false;">
+                <fieldset class="cust-fos">
+                    <legend class="cust-leg text-center">Введите необходимую информацию для связи с вами:</legend>
+                    <!-- Поля ввода ФИО и Должность-->
+                    <div class="form-group">                              
+                        <div class="">
+                            <input id="name" name="name" type="text" placeholder="ФИО" class="form-control" pattern='[A-Za-zА-Яа-яЁё\s]{2,}' title="Поле должно содержать только буквы, не менее 2х" required>
+                        </div>
+                    </div>
+                    <div class="form-group">                              
+                        <div class="">
+                            <input id="email" name="position" type="text" placeholder="Должность" class="form-control" required>
+                        </div>
+                    </div>                            
+                    <!-- Поля ввода Компания и Телефон-->
+                    <div class="form-group">
+                        <div class="">
+                            <input id="email" name="company" type="text" placeholder="Компания" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="form-group">                              
+                        <div class="">
+                            <input id="email" name="tel" type="text" placeholder="Телефон" class="form-control" title='Поле должно содержать не менее 6 цифер' pattern="[+()0-9\s]{6,}" required>
+                        </div>                                
+                    </div>
+                    <!-- Поле ввода Мыло -->
+                    <div class="form-group">
+                        <div class="">
+                            <input id="email" name="email" type="email" placeholder="E-mail" class="form-control email-centered" required>
+                        </div>
+                    </div>
+                    <!-- Кнопка Отправить -->
+                    <div class="form-group">
+                        <div class="text-center">
+                        <!-- Button trigger modal -->
+                            <button type="submit" class="btn btn-custom btn-lg" style="width:100%;">Отправить</button>
+                        </div>                                
+                    </div>
+                </fieldset>
+            </form>
+          </div>          
+        </div>
+      </div>
+    </div>
+        
+    <!-- Modal - register - XIII ежегодная конференция «Рынки плоского проката и труб» -->
+    <div class="modal fade" id="modal-register-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">          
+          <div class="modal-body text-center">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Закрыть</button>            
+            <form class="form-horizontal" action="post-2-r.php" method="post" onsubmit="send(); return false;">
+                <fieldset class="cust-fos">
+                    <legend class="cust-leg text-center">Введите необходимую информацию для регистрации:</legend>
+                    <!-- Поля ввода ФИО и Должность-->
+                    <div class="form-group">                              
+                        <div class="">
+                            <input id="name" name="name" type="text" placeholder="ФИО" class="form-control" pattern='[A-Za-zА-Яа-яЁё\s]{2,}' title="Поле должно содержать только буквы, не менее 2х" required>
+                        </div>
+                    </div>
+                    <div class="form-group">                              
+                        <div class="">
+                            <input id="email" name="position" type="text" placeholder="Должность" class="form-control" required>
+                        </div>
+                    </div>                            
+                    <!-- Поля ввода Компания и Телефон-->
+                    <div class="form-group">
+                        <div class="">
+                            <input id="email" name="company" type="text" placeholder="Компания" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="form-group">                              
+                        <div class="">
+                            <input id="email" name="tel" type="text" placeholder="Телефон" class="form-control" title='Поле должно содержать не менее 6 цифер' pattern="[+()0-9\s]{6,}" required>
+                        </div>                                
+                    </div>
+                    <!-- Поле ввода Мыло -->
+                    <div class="form-group">
+                        <div class="">
+                            <input id="email" name="email" type="email" placeholder="E-mail" class="form-control email-centered" required>
+                        </div>
+                    </div>
+                    <!-- Кнопка Отправить -->
+                    <div class="form-group">
+                        <div class="text-center">
+                        <!-- Button trigger modal -->
+                            <button type="submit" class="btn btn-custom btn-lg" style="width:100%;">Отправить</button>
+                        </div>                                
+                    </div>
+                </fieldset>
+            </form>                
+          </div>          
+        </div>
+      </div>
+    </div>
+    <!-- Modal - callback - XIII ежегодная конференция «Рынки плоского проката и труб» -->
+    <div class="modal fade" id="modal-callback-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">          
+          <div class="modal-body text-center">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Закрыть</button>            
+            <form class="form-horizontal" action="post-2-c.php" method="post" onsubmit="send(); return false;">
+                <fieldset class="cust-fos">
+                    <legend class="cust-leg text-center">Введите необходимую информацию для связи с вами:</legend>
+                    <!-- Поля ввода ФИО и Должность-->
+                    <div class="form-group">                              
+                        <div class="">
+                            <input id="name" name="name" type="text" placeholder="ФИО" class="form-control" pattern='[A-Za-zА-Яа-яЁё\s]{2,}' title="Поле должно содержать только буквы, не менее 2х" required>
+                        </div>
+                    </div>
+                    <div class="form-group">                              
+                        <div class="">
+                            <input id="email" name="position" type="text" placeholder="Должность" class="form-control" required>
+                        </div>
+                    </div>                            
+                    <!-- Поля ввода Компания и Телефон-->
+                    <div class="form-group">
+                        <div class="">
+                            <input id="email" name="company" type="text" placeholder="Компания" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="form-group">                              
+                        <div class="">
+                            <input id="email" name="tel" type="text" placeholder="Телефон" class="form-control" title='Поле должно содержать не менее 6 цифер' pattern="[+()0-9\s]{6,}" required>
+                        </div>                                
+                    </div>
+                    <!-- Поле ввода Мыло -->
+                    <div class="form-group">
+                        <div class="">
+                            <input id="email" name="email" type="email" placeholder="E-mail" class="form-control email-centered" required>
+                        </div>
+                    </div>
+                    <!-- Кнопка Отправить -->
+                    <div class="form-group">
+                        <div class="text-center">
+                        <!-- Button trigger modal -->
+                            <button type="submit" class="btn btn-custom btn-lg" style="width:100%;">Отправить</button>
+                        </div>                                
+                    </div>
+                </fieldset>
+            </form>
+          </div>          
+        </div>
+      </div>
+    </div>
+    
+    <!-- Modal - register - XIII ежегодная конференция «Рынки сортового проката и метизов» -->
+    <div class="modal fade" id="modal-register-3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">          
+          <div class="modal-body text-center">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Закрыть</button>            
+            <form class="form-horizontal" action="post-3-r.php" method="post" onsubmit="send(); return false;">
+                <fieldset class="cust-fos">
+                    <legend class="cust-leg text-center">Введите необходимую информацию для регистрации:</legend>
+                    <!-- Поля ввода ФИО и Должность-->
+                    <div class="form-group">                              
+                        <div class="">
+                            <input id="name" name="name" type="text" placeholder="ФИО" class="form-control" pattern='[A-Za-zА-Яа-яЁё\s]{2,}' title="Поле должно содержать только буквы, не менее 2х" required>
+                        </div>
+                    </div>
+                    <div class="form-group">                              
+                        <div class="">
+                            <input id="email" name="position" type="text" placeholder="Должность" class="form-control" required>
+                        </div>
+                    </div>                            
+                    <!-- Поля ввода Компания и Телефон-->
+                    <div class="form-group">
+                        <div class="">
+                            <input id="email" name="company" type="text" placeholder="Компания" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="form-group">                              
+                        <div class="">
+                            <input id="email" name="tel" type="text" placeholder="Телефон" class="form-control" title='Поле должно содержать не менее 6 цифер' pattern="[+()0-9\s]{6,}" required>
+                        </div>                                
+                    </div>
+                    <!-- Поле ввода Мыло -->
+                    <div class="form-group">
+                        <div class="">
+                            <input id="email" name="email" type="email" placeholder="E-mail" class="form-control email-centered" required>
+                        </div>
+                    </div>
+                    <!-- Кнопка Отправить -->
+                    <div class="form-group">
+                        <div class="text-center">
+                        <!-- Button trigger modal -->
+                            <button type="submit" class="btn btn-custom btn-lg" style="width:100%;">Отправить</button>
+                        </div>                                
+                    </div>
+                </fieldset>
+            </form>                
+          </div>          
+        </div>
+      </div>
+    </div>
+    <!-- Modal - callback - XIII ежегодная конференция «Рынки сортового проката и метизов» -->
+    <div class="modal fade" id="modal-callback-3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">          
+          <div class="modal-body text-center">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Закрыть</button>            
+            <form class="form-horizontal" action="post-3-c.php" method="post" onsubmit="send(); return false;">
+                <fieldset class="cust-fos">
+                    <legend class="cust-leg text-center">Введите необходимую информацию для связи с вами:</legend>
+                    <!-- Поля ввода ФИО и Должность-->
+                    <div class="form-group">                              
+                        <div class="">
+                            <input id="name" name="name" type="text" placeholder="ФИО" class="form-control" pattern='[A-Za-zА-Яа-яЁё\s]{2,}' title="Поле должно содержать только буквы, не менее 2х" required>
+                        </div>
+                    </div>
+                    <div class="form-group">                              
+                        <div class="">
+                            <input id="email" name="position" type="text" placeholder="Должность" class="form-control" required>
+                        </div>
+                    </div>                            
+                    <!-- Поля ввода Компания и Телефон-->
+                    <div class="form-group">
+                        <div class="">
+                            <input id="email" name="company" type="text" placeholder="Компания" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="form-group">                              
+                        <div class="">
+                            <input id="email" name="tel" type="text" placeholder="Телефон" class="form-control" title='Поле должно содержать не менее 6 цифер' pattern="[+()0-9\s]{6,}" required>
+                        </div>                                
+                    </div>
+                    <!-- Поле ввода Мыло -->
+                    <div class="form-group">
+                        <div class="">
+                            <input id="email" name="email" type="email" placeholder="E-mail" class="form-control email-centered" required>
+                        </div>
+                    </div>
+                    <!-- Кнопка Отправить -->
+                    <div class="form-group">
+                        <div class="text-center">
+                        <!-- Button trigger modal -->
+                            <button type="submit" class="btn btn-custom btn-lg" style="width:100%;">Отправить</button>
+                        </div>                                
+                    </div>
+                </fieldset>
+            </form>
+          </div>          
+        </div>
+      </div>
+    </div>
+    
+    <!-- Modal - register - XI международная конференция «Рынки металлургического сырья» -->
+    <div class="modal fade" id="modal-register-4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">          
+          <div class="modal-body text-center">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Закрыть</button>            
+            <form class="form-horizontal" action="post-4-r.php" method="post" onsubmit="send(); return false;">
+                <fieldset class="cust-fos">
+                    <legend class="cust-leg text-center">Введите необходимую информацию для регистрации:</legend>
+                    <!-- Поля ввода ФИО и Должность-->
+                    <div class="form-group">                              
+                        <div class="">
+                            <input id="name" name="name" type="text" placeholder="ФИО" class="form-control" pattern='[A-Za-zА-Яа-яЁё\s]{2,}' title="Поле должно содержать только буквы, не менее 2х" required>
+                        </div>
+                    </div>
+                    <div class="form-group">                              
+                        <div class="">
+                            <input id="email" name="position" type="text" placeholder="Должность" class="form-control" required>
+                        </div>
+                    </div>                            
+                    <!-- Поля ввода Компания и Телефон-->
+                    <div class="form-group">
+                        <div class="">
+                            <input id="email" name="company" type="text" placeholder="Компания" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="form-group">                              
+                        <div class="">
+                            <input id="email" name="tel" type="text" placeholder="Телефон" class="form-control" title='Поле должно содержать не менее 6 цифер' pattern="[+()0-9\s]{6,}" required>
+                        </div>                                
+                    </div>
+                    <!-- Поле ввода Мыло -->
+                    <div class="form-group">
+                        <div class="">
+                            <input id="email" name="email" type="email" placeholder="E-mail" class="form-control email-centered" required>
+                        </div>
+                    </div>
+                    <!-- Кнопка Отправить -->
+                    <div class="form-group">
+                        <div class="text-center">
+                        <!-- Button trigger modal -->
+                            <button type="submit" class="btn btn-custom btn-lg" style="width:100%;">Отправить</button>
+                        </div>                                
+                    </div>
+                </fieldset>
+            </form>                
+          </div>          
+        </div>
+      </div>
+    </div>
+    <!-- Modal - callback - XI международная конференция «Рынки металлургического сырья» -->
+    <div class="modal fade" id="modal-callback-4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">          
+          <div class="modal-body text-center">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Закрыть</button>            
+            <form class="form-horizontal" action="post-4-c.php" method="post" onsubmit="send(); return false;">
+                <fieldset class="cust-fos">
+                    <legend class="cust-leg text-center">Введите необходимую информацию для связи с вами:</legend>
+                    <!-- Поля ввода ФИО и Должность-->
+                    <div class="form-group">                              
+                        <div class="">
+                            <input id="name" name="name" type="text" placeholder="ФИО" class="form-control" pattern='[A-Za-zА-Яа-яЁё\s]{2,}' title="Поле должно содержать только буквы, не менее 2х" required>
+                        </div>
+                    </div>
+                    <div class="form-group">                              
+                        <div class="">
+                            <input id="email" name="position" type="text" placeholder="Должность" class="form-control" required>
+                        </div>
+                    </div>                            
+                    <!-- Поля ввода Компания и Телефон-->
+                    <div class="form-group">
+                        <div class="">
+                            <input id="email" name="company" type="text" placeholder="Компания" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="form-group">                              
+                        <div class="">
+                            <input id="email" name="tel" type="text" placeholder="Телефон" class="form-control" title='Поле должно содержать не менее 6 цифер' pattern="[+()0-9\s]{6,}" required>
+                        </div>                                
+                    </div>
+                    <!-- Поле ввода Мыло -->
+                    <div class="form-group">
+                        <div class="">
+                            <input id="email" name="email" type="email" placeholder="E-mail" class="form-control email-centered" required>
+                        </div>
+                    </div>
+                    <!-- Кнопка Отправить -->
+                    <div class="form-group">
+                        <div class="text-center">
+                        <!-- Button trigger modal -->
+                            <button type="submit" class="btn btn-custom btn-lg" style="width:100%;">Отправить</button>
+                        </div>                                
+                    </div>
+                </fieldset>
+            </form>
+          </div>          
+        </div>
+      </div>
+    </div>
+    
+    <!-- Modal - register - III международная конференция «Рынок оборудования и технологий для производства стали» -->
+    <div class="modal fade" id="modal-register-5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">          
+          <div class="modal-body text-center">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Закрыть</button>            
+            <form class="form-horizontal" action="post-5-r.php" method="post" onsubmit="send(); return false;">
+                <fieldset class="cust-fos">
+                    <legend class="cust-leg text-center">Введите необходимую информацию для регистрации:</legend>
+                    <!-- Поля ввода ФИО и Должность-->
+                    <div class="form-group">                              
+                        <div class="">
+                            <input id="name" name="name" type="text" placeholder="ФИО" class="form-control" pattern='[A-Za-zА-Яа-яЁё\s]{2,}' title="Поле должно содержать только буквы, не менее 2х" required>
+                        </div>
+                    </div>
+                    <div class="form-group">                              
+                        <div class="">
+                            <input id="email" name="position" type="text" placeholder="Должность" class="form-control" required>
+                        </div>
+                    </div>                            
+                    <!-- Поля ввода Компания и Телефон-->
+                    <div class="form-group">
+                        <div class="">
+                            <input id="email" name="company" type="text" placeholder="Компания" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="form-group">                              
+                        <div class="">
+                            <input id="email" name="tel" type="text" placeholder="Телефон" class="form-control" title='Поле должно содержать не менее 6 цифер' pattern="[+()0-9\s]{6,}" required>
+                        </div>                                
+                    </div>
+                    <!-- Поле ввода Мыло -->
+                    <div class="form-group">
+                        <div class="">
+                            <input id="email" name="email" type="email" placeholder="E-mail" class="form-control email-centered" required>
+                        </div>
+                    </div>
+                    <!-- Кнопка Отправить -->
+                    <div class="form-group">
+                        <div class="text-center">
+                        <!-- Button trigger modal -->
+                            <button type="submit" class="btn btn-custom btn-lg" style="width:100%;">Отправить</button>
+                        </div>                                
+                    </div>
+                </fieldset>
+            </form>                
+          </div>          
+        </div>
+      </div>
+    </div>
+    <!-- Modal - callback - III международная конференция «Рынок оборудования и технологий для производства стали» -->
+    <div class="modal fade" id="modal-callback-5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">          
+          <div class="modal-body text-center">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Закрыть</button>            
+            <form class="form-horizontal" action="post-5-c.php" method="post" onsubmit="send(); return false;">
+                <fieldset class="cust-fos">
+                    <legend class="cust-leg text-center">Введите необходимую информацию для связи с вами:</legend>
+                    <!-- Поля ввода ФИО и Должность-->
+                    <div class="form-group">                              
+                        <div class="">
+                            <input id="name" name="name" type="text" placeholder="ФИО" class="form-control" pattern='[A-Za-zА-Яа-яЁё\s]{2,}' title="Поле должно содержать только буквы, не менее 2х" required>
+                        </div>
+                    </div>
+                    <div class="form-group">                              
+                        <div class="">
+                            <input id="email" name="position" type="text" placeholder="Должность" class="form-control" required>
+                        </div>
+                    </div>                            
+                    <!-- Поля ввода Компания и Телефон-->
+                    <div class="form-group">
+                        <div class="">
+                            <input id="email" name="company" type="text" placeholder="Компания" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="form-group">                              
+                        <div class="">
+                            <input id="email" name="tel" type="text" placeholder="Телефон" class="form-control" title='Поле должно содержать не менее 6 цифер' pattern="[+()0-9\s]{6,}" required>
+                        </div>                                
+                    </div>
+                    <!-- Поле ввода Мыло -->
+                    <div class="form-group">
+                        <div class="">
+                            <input id="email" name="email" type="email" placeholder="E-mail" class="form-control email-centered" required>
+                        </div>
+                    </div>
+                    <!-- Кнопка Отправить -->
+                    <div class="form-group">
+                        <div class="text-center">
+                        <!-- Button trigger modal -->
+                            <button type="submit" class="btn btn-custom btn-lg" style="width:100%;">Отправить</button>
+                        </div>                                
+                    </div>
+                </fieldset>
+            </form>
+          </div>          
+        </div>
+      </div>
+    </div>
+    
 
 <!-- Metal Expert’s Kiev Steel and Raw Materials Conference -->    
 <!-- Modal - slides-metal-expert-01 -->
@@ -217,15 +732,39 @@
                         <b>получите скидку</b> <span class="c-red"><b>400$</b></span> <br>
                         на конференции 2015 года 
                     </div>
-                </div>                
-                <div class="divider"></div>                
+                </div>                                 
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                <span class="">До завершения акции осталось:</span>
+                <!-- timer -->   
+                <div class="timer" style="margin-top:-10px">
+                    <div class="timer_hours">
+                        <div class="hours_val"></div>
+                        <div class="hours_text text-uppercase">часов</div>
+                    </div>
+                    <div class="timer_minutes">
+                        <div class="minutes_val"></div>
+                        <div class="minutes_text text-uppercase">минут</div>
+                    </div>
+                    <div class="timer_seconds">
+                        <div class="seconds_val"></div>
+                        <div class="seconds_text text-uppercase">секунд</div>
+                    </div>
+                </div>                    
+                <div class="divider"></div>
             </div>
         </div>
         <!-- main block -->
         <div class="[ row ] -main">
             <!-- Metal Expert’s Kiev Steel and Raw Materials Conference -->
-            <div class="[ col-lg-6 col-md-6 col-sm-12 col-xs-12 ] -main-block">
+            <div class="[ col-lg-6 col-md-6 col-sm-12 col-xs-12 ] -main-block -img-block">
                 <img class="[ img-responsive ] -main-img" src="img/img-main-metal-expert.png" alt="Metal Expert’s Kiev Steel and Raw Materials Conference">
+                <div class="bf-register" data-toggle="modal" data-target="#modal-register-1">
+                    <span>Зарегистрироваться</span>
+                </div>
+                <div class="bf-callback" data-toggle="modal" data-target="#modal-callback-1">
+                    <span>Заказать звонок</span>
+                </div>
             </div>
             <div class="[ col-lg-6 col-md-6 col-sm-12 col-xs-12 ] -main-block">
                 <div class="main-text-wrap">
@@ -256,6 +795,12 @@
             <!-- XIII ежегодная конференция «Рынки плоского проката и труб» -->
             <div class="[ col-lg-6 col-md-6 col-sm-12 col-xs-12 ] -main-block">
                 <img class="[ img-responsive ] -main-img" src="img/img-markets-flat-rolled-products-and-pipes.png" alt="Рынки плоского проката и труб">
+                <div class="bf-register" data-toggle="modal" data-target="#modal-register-2">
+                    <span>Зарегистрироваться</span>
+                </div>
+                <div class="bf-callback" data-toggle="modal" data-target="#modal-callback-2">
+                    <span>Заказать звонок</span>
+                </div>
             </div>
             <div class="[ col-lg-6 col-md-6 col-sm-12 col-xs-12 ] -main-block">
                 <div class="main-text-wrap">
@@ -286,6 +831,12 @@
             <!-- XIII ежегодная конференция «Рынки сортового проката и метизов» -->
             <div class="[ col-lg-6 col-md-6 col-sm-12 col-xs-12 ] -main-block">
                 <img class="[ img-responsive ] -main-img" src="img/img-markets-section-steel-and-metal-products.png" alt="Рынки сортового проката и метизов">
+                <div class="bf-register" data-toggle="modal" data-target="#modal-register-3">
+                    <span>Зарегистрироваться</span>
+                </div>
+                <div class="bf-callback" data-toggle="modal" data-target="#modal-callback-3">
+                    <span>Заказать звонок</span>
+                </div>                
             </div>
             <div class="[ col-lg-6 col-md-6 col-sm-12 col-xs-12 ] -main-block">
                 <div class="main-text-wrap">
@@ -317,6 +868,12 @@
             <!-- XI международная конференция «Рынки металлургического сырья» -->
             <div class="[ col-lg-6 col-md-6 col-sm-12 col-xs-12 ] -main-block">
                 <img class="[ img-responsive ] -main-img" src="img/img-metallurgical-raw-materials-markets.png" alt="Рынки металлургического сырья">
+                <div class="bf-register" data-toggle="modal" data-target="#modal-register-4">
+                    <span>Зарегистрироваться</span>
+                </div>
+                <div class="bf-callback" data-toggle="modal" data-target="#modal-callback-4">
+                    <span>Заказать звонок</span>
+                </div>                
             </div>
             <div class="[ col-lg-6 col-md-6 col-sm-12 col-xs-12 ] -main-block">
                 <div class="main-text-wrap">
@@ -348,6 +905,12 @@
             <!-- III международная конференция «Рынок оборудования и технологий для производства стали» -->
             <div class="[ col-lg-6 col-md-6 col-sm-12 col-xs-12 ] -main-block">
                 <img class="[ img-responsive ] -main-img" src="img/img-equipment-and-technologies-steel.png" alt="Рынок оборудования и технологий для производства стали">
+                <div class="bf-register" data-toggle="modal" data-target="#modal-register-5">
+                    <span>Зарегистрироваться</span>
+                </div>
+                <div class="bf-callback" data-toggle="modal" data-target="#modal-callback-5">
+                    <span>Заказать звонок</span>
+                </div>                
             </div>
             <div class="[ col-lg-6 col-md-6 col-sm-12 col-xs-12 ] -main-block">
                 <div class="main-text-wrap">
@@ -391,5 +954,13 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="js/timer.js"></script>
+    <script>
+        var form = document.querySelector('.form-horizontal');
+        function send() {
+            $('#basicModal').modal('show');
+            setTimeout("form.submit();", 3000);
+        }
+    </script>
 </body>
 </html>
