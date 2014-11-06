@@ -20,6 +20,10 @@
     margin-top: 50px;
 }
 
+.-div-main {
+    margin-top: 35px;
+}
+
 legend {
     border-bottom: 0px;
 }
@@ -50,6 +54,35 @@ legend {
     height: 100%;
 }
 
+/* timer */
+.timer{
+    overflow: hidden;
+    margin-top: 20px;
+    color: #000;
+}
+
+.timer [class*='timer_'] {
+    display: inline-block;
+    width: 20%;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.timer [class*='_val'] {
+    font-size: 28px;
+}
+
+.timer [class*='_text'] {
+    padding-bottom: .5em;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.bf-ac-header {
+    color: #fff;
+    font-size: 220%;
+}
+
 /* header block */
 
 .-header {    
@@ -72,6 +105,7 @@ legend {
 
 .h-text img {
     width: 120%;
+    margin-bottom: -19%;
 }
 
 .header-text-inner {    
