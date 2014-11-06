@@ -262,9 +262,9 @@ figure, figcaption {
 
 .bf-register span {
     display: inline-block;
-    border: 3px solid #E31717;
+    border: 2px solid #fff;
     padding: 2% 4.6%;
-    color: #E31717;
+    color: #fff;
     font-weight: 600;
     text-transform: uppercase;
     font-size: 194%;
@@ -274,9 +274,9 @@ figure, figcaption {
 
 .bf-callback span {
     display: inline-block;
-    border: 3px solid #E31717;
+    border: 2px solid #fff;
     padding: 2% 10.6%;
-    color: #E31717;
+    color: #fff;
     font-weight: 600;
     text-transform: uppercase;
     font-size: 194%;
@@ -287,7 +287,7 @@ figure, figcaption {
 .price {
     margin-top: 3%;
     padding: 1%;
-    border: 4px dashed #fff;
+    border: 1px dotted #fff;
     width: 70%;
     margin-left: 9%;
     border-radius: 20px;
