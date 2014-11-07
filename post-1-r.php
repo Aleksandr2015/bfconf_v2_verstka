@@ -10,9 +10,8 @@ $message .= '</body></html>';
 $headers = "MIME-Version: 1.0"."\r\n";
 $headers .= "Content-Type: text/html; charset=utf-8"."\r\n"; // можно отправлять письмо в html
 $headers .= "From: bfconf.ru";
-mail('charleksvik@gmail.com', 'Заявка регистрации на Metal Expert’s Kiev Steel and Raw Materials Conference', $message, $headers);
+mail('bfconf@gmail.com', 'Заявка регистрации на Metal Expert’s Kiev Steel and Raw Materials Conference', $message, $headers);
 //header("location: ".$_SERVER['HTTP_REFERER']);
 header("Location: after-send.html");
-//bfconf@gmail.c_om
 exit;
 ?>
