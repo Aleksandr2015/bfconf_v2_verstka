@@ -14,18 +14,18 @@ html, body {
 }
 
 .divider {
-    margin: 80px auto 0;
+    margin: 10px auto 0;
     height: 1px;
     width: 90%;
     border-bottom: 3px dashed #fff;
 }
 
 .-div-footer {
-    margin-top: 50px;
+    margin-top: 1%;
 }
 
 .-div-main {
-    margin-top: 35px;
+    margin-top: 15px;
 }
 
 .divider-dotted {
@@ -193,6 +193,10 @@ figure, figcaption {
 
 /* header block */
 
+.logo {
+    margin-bottom: -6%;   
+}
+
 .-header {    
     background: #e25030; /* Old browsers */
     background: -moz-linear-gradient(top,  #e25030 0%, #f38a31 100%); /* FF3.6+ */
@@ -213,7 +217,7 @@ figure, figcaption {
 
 .h-text img {
     width: 120%;
-    margin-bottom: -19%;
+    margin-bottom: -24.7%;
 }
 
 .header-text-inner {    
@@ -230,7 +234,7 @@ figure, figcaption {
 /* main block */
 
 .-main {
-    padding-top: 5%;    
+    padding-top: 1%;    
     background: #e25030; /* Old browsers */
     background: -moz-linear-gradient(left,  #e25030 0%, #f38a31 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, right top, color-stop(0%,#e25030), color-stop(100%,#f38a31)); /* Chrome,Safari4+ */

@@ -27,31 +27,34 @@
             <form class="form-horizontal" action="post-1-r.php" method="post">
                 <fieldset class="cust-fos">
                     <legend class="cust-leg text-center">Введите необходимую информацию для регистрации:</legend>
-                    <!-- Поля Имя -->
+                    <!-- Поля ввода ФИО и Должность-->
                     <div class="form-group">                              
                         <div class="">
-                            <input id="name" name="name" type="text" placeholder="Имя" class="form-control" pattern='[A-Za-zА-Яа-яЁё\s]{2,}' title="Поле должно содержать только буквы, не менее 2х" required>
-                        </div>
-                    </div>                    
-                    <!-- Телефон -->
-                    <div class="form-group">
-                        <div class="">
-                            <input id="campany" name="company" type="text" placeholder="Компания" class="form-control" required>
+                            <input id="name" name="name" type="text" placeholder="ФИО" class="form-control" pattern='[A-Za-zА-Яа-яЁё\s]{2,}' title="Поле должно содержать только буквы, не менее 2х" required>
                         </div>
                     </div>
                     <div class="form-group">                              
                         <div class="">
-                            <input id="tel" name="tel" type="text" placeholder="Телефон" class="form-control" title='Поле должно содержать не менее 6 цифер' pattern="[+()0-9\s]{6,}" required>
+                            <input id="email" name="position" type="text" placeholder="Должность" class="form-control" required>
+                        </div>
+                    </div>                            
+                    <!-- Поля ввода Компания и Телефон-->
+                    <div class="form-group">
+                        <div class="">
+                            <input id="email" name="company" type="text" placeholder="Компания" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="form-group">                              
+                        <div class="">
+                            <input id="email" name="tel" type="text" placeholder="Телефон" class="form-control" title='Поле должно содержать не менее 6 цифер' pattern="[+()0-9\s]{6,}" required>
                         </div>                                
                     </div>
                     <!-- Поле ввода Мыло -->
-<!--
                     <div class="form-group">
                         <div class="">
                             <input id="email" name="email" type="email" placeholder="E-mail" class="form-control email-centered" required>
                         </div>
                     </div>
--->
                     <!-- Кнопка Отправить -->
                     <div class="form-group">
                         <div class="text-center">
@@ -91,14 +94,6 @@
                             <input id="email" name="tel" type="text" placeholder="Телефон" class="form-control" title='Поле должно содержать не менее 6 цифер' pattern="[+()0-9\s]{6,}" required>
                         </div>                                
                     </div>
-                    <!-- Поле ввода Мыло -->
-<!--
-                    <div class="form-group">
-                        <div class="">
-                            <input id="email" name="email" type="email" placeholder="E-mail" class="form-control email-centered" required>
-                        </div>
-                    </div>
--->
                     <!-- Кнопка Отправить -->
                     <div class="form-group">
                         <div class="text-center">
@@ -122,16 +117,21 @@
             <form class="form-horizontal" action="post-2-r.php" method="post">
                 <fieldset class="cust-fos">
                     <legend class="cust-leg text-center">Введите необходимую информацию для регистрации:</legend>
-                    <!-- Поля Имя -->
+                    <!-- Поля ввода ФИО и Должность-->
                     <div class="form-group">                              
                         <div class="">
-                            <input id="name" name="name" type="text" placeholder="Имя" class="form-control" pattern='[A-Za-zА-Яа-яЁё\s]{2,}' title="Поле должно содержать только буквы, не менее 2х" required>
+                            <input id="name" name="name" type="text" placeholder="ФИО" class="form-control" pattern='[A-Za-zА-Яа-яЁё\s]{2,}' title="Поле должно содержать только буквы, не менее 2х" required>
                         </div>
-                    </div>                    
-                    <!-- Телефон -->
+                    </div>
+                    <div class="form-group">                              
+                        <div class="">
+                            <input id="email" name="position" type="text" placeholder="Должность" class="form-control" required>
+                        </div>
+                    </div>                            
+                    <!-- Поля ввода Компания и Телефон-->
                     <div class="form-group">
                         <div class="">
-                            <input id="campany" name="company" type="text" placeholder="Компания" class="form-control" required>
+                            <input id="email" name="company" type="text" placeholder="Компания" class="form-control" required>
                         </div>
                     </div>
                     <div class="form-group">                              
@@ -140,13 +140,11 @@
                         </div>                                
                     </div>
                     <!-- Поле ввода Мыло -->
-<!--
                     <div class="form-group">
                         <div class="">
                             <input id="email" name="email" type="email" placeholder="E-mail" class="form-control email-centered" required>
                         </div>
                     </div>
--->
                     <!-- Кнопка Отправить -->
                     <div class="form-group">
                         <div class="text-center">
@@ -186,14 +184,6 @@
                             <input id="email" name="tel" type="text" placeholder="Телефон" class="form-control" title='Поле должно содержать не менее 6 цифер' pattern="[+()0-9\s]{6,}" required>
                         </div>                                
                     </div>
-                    <!-- Поле ввода Мыло -->
-<!--
-                    <div class="form-group">
-                        <div class="">
-                            <input id="email" name="email" type="email" placeholder="E-mail" class="form-control email-centered" required>
-                        </div>
-                    </div>
--->
                     <!-- Кнопка Отправить -->
                     <div class="form-group">
                         <div class="text-center">
@@ -217,16 +207,21 @@
             <form class="form-horizontal" action="post-3-r.php" method="post">
                 <fieldset class="cust-fos">
                     <legend class="cust-leg text-center">Введите необходимую информацию для регистрации:</legend>
-                    <!-- Поля Имя -->
+                    <!-- Поля ввода ФИО и Должность-->
                     <div class="form-group">                              
                         <div class="">
-                            <input id="name" name="name" type="text" placeholder="Имя" class="form-control" pattern='[A-Za-zА-Яа-яЁё\s]{2,}' title="Поле должно содержать только буквы, не менее 2х" required>
+                            <input id="name" name="name" type="text" placeholder="ФИО" class="form-control" pattern='[A-Za-zА-Яа-яЁё\s]{2,}' title="Поле должно содержать только буквы, не менее 2х" required>
                         </div>
-                    </div>                    
-                    <!-- Телефон -->
+                    </div>
+                    <div class="form-group">                              
+                        <div class="">
+                            <input id="email" name="position" type="text" placeholder="Должность" class="form-control" required>
+                        </div>
+                    </div>                            
+                    <!-- Поля ввода Компания и Телефон-->
                     <div class="form-group">
                         <div class="">
-                            <input id="campany" name="company" type="text" placeholder="Компания" class="form-control" required>
+                            <input id="email" name="company" type="text" placeholder="Компания" class="form-control" required>
                         </div>
                     </div>
                     <div class="form-group">                              
@@ -235,13 +230,11 @@
                         </div>                                
                     </div>
                     <!-- Поле ввода Мыло -->
-<!--
                     <div class="form-group">
                         <div class="">
                             <input id="email" name="email" type="email" placeholder="E-mail" class="form-control email-centered" required>
                         </div>
                     </div>
--->
                     <!-- Кнопка Отправить -->
                     <div class="form-group">
                         <div class="text-center">
@@ -281,14 +274,6 @@
                             <input id="email" name="tel" type="text" placeholder="Телефон" class="form-control" title='Поле должно содержать не менее 6 цифер' pattern="[+()0-9\s]{6,}" required>
                         </div>                                
                     </div>
-                    <!-- Поле ввода Мыло -->
-<!--
-                    <div class="form-group">
-                        <div class="">
-                            <input id="email" name="email" type="email" placeholder="E-mail" class="form-control email-centered" required>
-                        </div>
-                    </div>
--->
                     <!-- Кнопка Отправить -->
                     <div class="form-group">
                         <div class="text-center">
@@ -312,16 +297,21 @@
             <form class="form-horizontal" action="post-4-r.php" method="post">
                 <fieldset class="cust-fos">
                     <legend class="cust-leg text-center">Введите необходимую информацию для регистрации:</legend>
-                    <!-- Поля Имя -->
+                    <!-- Поля ввода ФИО и Должность-->
                     <div class="form-group">                              
                         <div class="">
-                            <input id="name" name="name" type="text" placeholder="Имя" class="form-control" pattern='[A-Za-zА-Яа-яЁё\s]{2,}' title="Поле должно содержать только буквы, не менее 2х" required>
+                            <input id="name" name="name" type="text" placeholder="ФИО" class="form-control" pattern='[A-Za-zА-Яа-яЁё\s]{2,}' title="Поле должно содержать только буквы, не менее 2х" required>
                         </div>
-                    </div>                    
-                    <!-- Телефон -->
+                    </div>
+                    <div class="form-group">                              
+                        <div class="">
+                            <input id="email" name="position" type="text" placeholder="Должность" class="form-control" required>
+                        </div>
+                    </div>                            
+                    <!-- Поля ввода Компания и Телефон-->
                     <div class="form-group">
                         <div class="">
-                            <input id="campany" name="company" type="text" placeholder="Компания" class="form-control" required>
+                            <input id="email" name="company" type="text" placeholder="Компания" class="form-control" required>
                         </div>
                     </div>
                     <div class="form-group">                              
@@ -330,13 +320,11 @@
                         </div>                                
                     </div>
                     <!-- Поле ввода Мыло -->
-<!--
                     <div class="form-group">
                         <div class="">
                             <input id="email" name="email" type="email" placeholder="E-mail" class="form-control email-centered" required>
                         </div>
                     </div>
--->
                     <!-- Кнопка Отправить -->
                     <div class="form-group">
                         <div class="text-center">
@@ -376,14 +364,6 @@
                             <input id="email" name="tel" type="text" placeholder="Телефон" class="form-control" title='Поле должно содержать не менее 6 цифер' pattern="[+()0-9\s]{6,}" required>
                         </div>                                
                     </div>
-                    <!-- Поле ввода Мыло -->
-<!--
-                    <div class="form-group">
-                        <div class="">
-                            <input id="email" name="email" type="email" placeholder="E-mail" class="form-control email-centered" required>
-                        </div>
-                    </div>
--->
                     <!-- Кнопка Отправить -->
                     <div class="form-group">
                         <div class="text-center">
@@ -407,16 +387,21 @@
             <form class="form-horizontal" action="post-5-r.php" method="post">
                 <fieldset class="cust-fos">
                     <legend class="cust-leg text-center">Введите необходимую информацию для регистрации:</legend>
-                    <!-- Поля Имя -->
+                    <!-- Поля ввода ФИО и Должность-->
                     <div class="form-group">                              
                         <div class="">
-                            <input id="name" name="name" type="text" placeholder="Имя" class="form-control" pattern='[A-Za-zА-Яа-яЁё\s]{2,}' title="Поле должно содержать только буквы, не менее 2х" required>
+                            <input id="name" name="name" type="text" placeholder="ФИО" class="form-control" pattern='[A-Za-zА-Яа-яЁё\s]{2,}' title="Поле должно содержать только буквы, не менее 2х" required>
                         </div>
-                    </div>                    
-                    <!-- Телефон -->
+                    </div>
+                    <div class="form-group">                              
+                        <div class="">
+                            <input id="email" name="position" type="text" placeholder="Должность" class="form-control" required>
+                        </div>
+                    </div>                            
+                    <!-- Поля ввода Компания и Телефон-->
                     <div class="form-group">
                         <div class="">
-                            <input id="campany" name="company" type="text" placeholder="Компания" class="form-control" required>
+                            <input id="email" name="company" type="text" placeholder="Компания" class="form-control" required>
                         </div>
                     </div>
                     <div class="form-group">                              
@@ -425,13 +410,11 @@
                         </div>                                
                     </div>
                     <!-- Поле ввода Мыло -->
-<!--
                     <div class="form-group">
                         <div class="">
                             <input id="email" name="email" type="email" placeholder="E-mail" class="form-control email-centered" required>
                         </div>
                     </div>
--->
                     <!-- Кнопка Отправить -->
                     <div class="form-group">
                         <div class="text-center">
@@ -471,14 +454,6 @@
                             <input id="email" name="tel" type="text" placeholder="Телефон" class="form-control" title='Поле должно содержать не менее 6 цифер' pattern="[+()0-9\s]{6,}" required>
                         </div>                                
                     </div>
-                    <!-- Поле ввода Мыло -->
-<!--
-                    <div class="form-group">
-                        <div class="">
-                            <input id="email" name="email" type="email" placeholder="E-mail" class="form-control email-centered" required>
-                        </div>
-                    </div>
--->
                     <!-- Кнопка Отправить -->
                     <div class="form-group">
                         <div class="text-center">
