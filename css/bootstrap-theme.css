@@ -246,7 +246,7 @@ figure, figcaption {
 }
 
 .-main-block {
-    min-height: 635px;
+    min-height: 730px;
 }
 
 .-main-img {
@@ -345,6 +345,10 @@ figure, figcaption {
     font-size: 110%;
     color: #fff;
     margin-bottom: 5%
+}
+
+.main-text-ul li {
+    color: #fff;
 }
 
 .-intext {
