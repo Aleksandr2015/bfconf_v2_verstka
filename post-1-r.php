@@ -13,6 +13,6 @@ $headers .= "From: bfconf.ru";
 mail('charleksvik@gmail.com', 'Заявка регистрации на Metal Expert’s Kiev Steel and Raw Materials Conference', $message, $headers);
 //header("location: ".$_SERVER['HTTP_REFERER']);
 header("Location: after-send.html");
-//bfconf@gmail.com
+//bfconf@gmail.c_om
 exit;
 ?>
