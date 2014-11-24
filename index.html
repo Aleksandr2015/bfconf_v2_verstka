@@ -980,14 +980,15 @@
     <script src="js/jquery.timeTo.js"></script>
     <script>
         $('#countdown').timeTo({            
-            timeTo: new Date(new Date('Fri Nov 14 2014 18:00:00 GMT+0200 (Украина(Зима))')),
+            timeTo: new Date(new Date('Mon Nov 10 2014 7:21:00 GMT+0200 (Украина(Зима))')),			
             displayDays: 2,
             theme: "black",
             displayCaptions: true,
             fontSize: 40,
             captionSize: 14,
             lang: 'ru',
-            countdownAlertLimit: 15,            
+            countdownAlertLimit: 15,    
+			callback: 'stop',
         });                        
     </script>
 </body>
